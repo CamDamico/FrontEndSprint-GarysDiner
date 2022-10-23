@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
   }
 
   body{
@@ -70,9 +74,9 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
     /* align-items: center; */
     padding: 13vh;
    
-    font-size: auto;
+    /* font-size: auto; */
 
-    font-family: 'Inter';
+    /* font-family: 'Inter'; */
     font-style: normal;
     font-weight: 400;
     font-size: 13vh;
@@ -109,13 +113,33 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
     color: white;
     text-align: center;
     font-size: 1rem;
-    background: linear-gradient(0,0,0,0.6);
-    padding-top:20vh;
+    
+    padding:20px;;
     font-size: 36px;
-    background: linear-gradient(0,0,0,0.6);
-    text-shadow: #000;
-    padding-bottom: 2vh;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.42)
+    
+    
+    /* padding-bottom: 2vh; */
 }
+
+#review #spot{
+    justify-content: center;
+    padding-bottom: 3vh;
+    background-color: rgba(0, 0, 0, 0.22)
+    
+    
+}
+
+#reviewHead #reviewHeader{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 50px;
+    background-color:rgba(0, 0, 0, 0.12)
+}
+
+
 
 #reviews:hover{
     cursor: pointer;
@@ -125,11 +149,41 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
     cursor:default
 }
 
+
+#ourstory #storyHeader{
+    color:white;
+    font-size: 10vh;
+    text-align: center;
+    padding: 50px;
+}
+
+#ourstory{
+    text-align: center;
+    
+    
+}
+
+#ourstory #story{
+    color: #FFFFFF;
+    padding: 25px;
+    background:rgba(0, 0, 0, 0.42);
+    font-size: 1.5em;
+    padding-bottom: 100px;
+}
+
+#ourstory #thankyou{
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+
+
+
 @media screen and (max-width: 800px) {
     #Center #one {
     display: inline;
-    font-size: 6vh;
-    justify-content:
+    font-size: 3vh;
+    
     }
   
     article {
