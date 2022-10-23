@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  body{
+    background-image: url(../Images/duane-mendes-KlR6vX1R0fQ-unsplash.jpg);
+    background-position: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+
+header{
+    background-color: black;
+    height: 80px;
+    position: sticky;
+
+}
+
+#Logo{
+    position: absolute;
+width: 101px;
+height: 87px;
+left: 13px;
+top: -3px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 87px;
+
+color: #ffffff;
+
+border: 2px solid rgba(255, 255, 255, 0.8);
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
+
+}
+
+#Buttons{
+    display: flex;
+    justify-content:right;
+    padding-top: 30px;
+    padding-right: 20px;
+    
+}
+
+#Buttons #menu{
+    text-decoration: none;
+    padding-right: 20px;
+    color: white;
+}
+
+#Buttons #Order{
+    text-decoration: none;
+    color: white;
+}
+
+#Center #one{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 10vh;
+   
+    font-size: 5em;
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 7em;
+line-height: 116px;
+
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.57);
+
+    
+    
+
+
+    
+}
+
+.Hours #hours{
+    text-align: center;
+    padding: 7vh;
+    
+    
+    font-size: 3em;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.44) 20.04%, rgba(0, 0, 0, 0.33) 100%);
+    
+   
+}
+
+#reviews{
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    background: linear-gradient(0,0,0,0.6);
+    padding-top:20vh
+}
+
+#reviews #first{
+    padding-bottom: 25px;
+    background: linear-gradient(0,0,0,0.5);
+    width: auto;
+}
+
+#reviews #second{
+    padding-bottom: 25px;
+    background: linear-gradient(0,0,0,0.5);
+    width: auto;
+
+}
