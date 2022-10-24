@@ -44,8 +44,11 @@ line-height: 87px;
 
 color: #ffffff;
 
-border: 2px solid rgba(255, 255, 255, 0.8);
+/* border: 2px solid rgba(255, 255, 255, 0.8); */
 text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
+text-decoration: none;
+
+
 
 }
 
