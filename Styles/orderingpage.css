@@ -70,11 +70,49 @@ header {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.57);
 }
 
-#Quantity {
+#Item {
   color: #ffffff;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.57);
+  display: inline-block;
   flex-direction: row;
-  justify-content: space-around;
-  padding-left: 200px;
-  padding-bottom: 10vh;
+  justify-content: space-between;
+  padding-left: 250px;
+  padding-bottom: 4vh;
   font-size: 1em;
+}
+
+#Item label {
+  display: block;
+}
+
+#Payment {
+  color: #ffffff;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 405px;
+  padding-bottom: 4vh;
+  font-size: 1em;
+}
+
+#Payment #Pay1 {
+  display: block;
+  padding-left: 257px;
+
+  font-size: 2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 350;
+  line-height: 100px;
+  color: #ffffff;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.57);
+}
+
+#Payment label {
+  display: block;
+}
+
+#Sub {
+  padding-left: 685px;
+  padding-bottom: 3vh;
 }
