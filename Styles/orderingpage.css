@@ -11,7 +11,7 @@ body {
   background-size: cover;
 }
 header {
-  background-color: black;
+  background-color:rgba(93, 90, 90, 0.22);
   height: 80px;
   position: sticky;
 }
@@ -27,8 +27,9 @@ header {
   font-size: 72px;
   line-height: 87px;
   color: #ffffff;
-  border: 2px solid rgba(255, 255, 255, 0.8);
+  /* border: 2px solid rgba(255, 255, 255, 0.8); */
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
+  text-decoration: none;
 }
 #Buttons {
   display: flex;
