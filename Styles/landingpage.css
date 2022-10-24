@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
 
 
 * {
@@ -54,12 +55,27 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
     padding-top: 30px;
     padding-right: 20px;
     
+    
 }
 
 #Buttons #menu{
     text-decoration: none;
     padding-right: 20px;
     color: white;
+    
+}
+
+#Buttons #facebookIcon{
+    font-size: 20px;
+    color: steelblue;
+    padding-left: 15px; 
+}
+
+#Buttons #instagramIcon{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 15px;
+
 }
 
 #Buttons #Order{
@@ -83,19 +99,10 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
     line-height: 116px;
 
     color: #FFFFFF;
-
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.57);
-
-    
-    
-
-
     
 }
 
-#Center{
-    justify-content: ;
-}
+
 
 .Hours #hours{
     text-align: center;
@@ -176,6 +183,16 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
     font-size: 32px;
 }
 
+#footer{
+    background-color: black;
+    color: #ffffff;
+    width: 100%;
+    size: 48px;
+   
+    padding-top: 100px;
+    text-align: center;
+}
+
 
 
 
@@ -190,20 +207,3 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.42);
       flex: 100%;
     }
   }
-
-/* #reviews #first{
-    padding-bottom: 25px;
-    background: linear-gradient(0,0,0,0.5);
-    width: auto;
-} */
-
-/* #reviews #second{ */
-    /* padding-bottom: 25px;
-    background: linear-gradient(0,0,0,0.5);
-    width: auto;
-
-}
-
-#reviews #spot{
-    color: aqua;
-} */
