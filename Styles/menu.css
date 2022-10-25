@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -67,6 +70,18 @@ img {
 #Buttons #Order {
   text-decoration: none;
   color: white;
+}
+
+#Buttons #facebookIcon {
+  font-size: 20px;
+  color: steelblue;
+  padding-left: 15px;
+}
+
+#Buttons #instagramIcon {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 15px;
 }
 
 #Items {
@@ -140,3 +155,10 @@ img {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/* THIS SHOULD WORK  */

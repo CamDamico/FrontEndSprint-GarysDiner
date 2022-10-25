@@ -91,6 +91,7 @@ text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-align: center;
     /* align-items: center; */
     padding: 13vh;
    
