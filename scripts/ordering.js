@@ -37,3 +37,13 @@ order.addEventListener("submit", function (evt) {
   var PhoneNumber = document.querySelector("PhoneNum").value;
   var PhoneNumResult = PhoneNumber;
 });
+
+var Reciept = document.querySelector("#Rec");
+
+Reciept.addEventListener("click", function (evt) {
+  var NewRec = document.createElement("p");
+  NewRec.className = "Payment";
+  NewRec.innerText = `${NameResult} your order has been submitted and will be delivered to ${AddResult}. 
+  Order: ${result}.`;
+  document.querySelector("#Sub").appendChild(NewRec);
+});
