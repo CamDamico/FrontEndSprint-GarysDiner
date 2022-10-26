@@ -116,3 +116,112 @@ header {
   padding-left: 685px;
   padding-bottom: 3vh;
 }
+
+#Total {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 350;
+  line-height: 100px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.57);
+}
+
+#TotalValue {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #ffffff;
+  border: none;
+}
+
+#Price {
+  color: #ffffff;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.57);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-size: 1em;
+}
+
+#Food {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3vh;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+#BigGarySpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3vh;
+}
+
+#BatWingSpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3vh;
+}
+
+#GaryFriesSpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3vh;
+}
+
+#ChickenSaladSpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3vh;
+}
+
+#RaspTartSpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3vh;
+}
+
+#ChocFudgeSpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#TotSpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3vh;
+  font-size: 1.5rem;
+}
+
+#TotVal {
+  font-weight: bold;
+  text-shadow: 4px 4px 4px rgb(0, 0, 0);
+  font-size: 1.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  padding-left: 20px;
+}

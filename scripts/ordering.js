@@ -1,49 +1,45 @@
-var quantity = document.querySelector("Item");
+function calculateTotal() {
+  let UnitPrice = {
+    BigGary: 12,
+    BatteredWings: 15,
+    GarysFries: 8,
+    ChickenSalad: 13,
+    RaspberryTart: 9,
+    ChocolateFudge: 11,
+  };
+  let ItemPrice = {};
 
-quantity.addEventListener("submit", function (evt) {
-  var quantity1 = document.querySelector("Item1").value;
-  var result = `Item 1 x ${quantity1}`;
+  ItemPrice.BigGary = $("#BigGary").value() * UnitPrice.BigGary;
+  $("#PriceBigGary").value(ItemPrice.BigGary);
 
-  var quantity2 = document.querySelector("Item2").value;
-  var result = `Item 2 x ${quantity2}`;
+  ItemPrice.BatteredWings =
+    $("#BatteredWings").value() * UnitPrice.BatteredWings;
+  $("#PriceBatWings").value(ItemPrice.BatteredWings);
 
-  var quantity3 = document.querySelector("Item3").value;
-  var result = `Item 3 x ${quantity3}`;
+  ItemPrice.GarysFries = $("#GarysFries").value() * UnitPrice.GarysFries;
+  $("#PriceGarysFries").value(ItemPrice.GarysFries);
 
-  var quantity4 = document.querySelector("Item4").value;
-  var result = `Item 4 x ${quantity4}`;
+  ItemPrice.ChickenSalad = $("#ChickenSalad").value() * UnitPrice.ChickenSalad;
+  $("#PriceChickenSalad").value(ItemPrice.ChickenSalad);
 
-  var quantity5 = document.querySelector("Item5").value;
-  var result = `Item 5 x ${quantity5}`;
+  ItemPrice.RaspberryTart =
+    $("#RaspberryTart").value() * UnitPrice.RaspberryTart;
+  $("#PriceRaspTart").value(ItemPrice.RaspberryTart);
 
-  var quantity6 = document.querySelector("Item6").value;
-  var result = `Item 6 x ${quantity6}`;
+  ItemPrice.ChocolateFudge = $("#ChocFudge").value() * UnitPrice.ChocolateFudge;
+  $("#PriceChocFudge").value(ItemPrice.ChocolateFudge);
 
-  evt.preventDefault;
-});
+  let Total =
+    ItemPrice.BigGary +
+    ItemPrice.BatteredWings +
+    ItemPrice.GarysFries +
+    ItemPrice.ChickenSalad +
+    ItemPrice.RaspberryTart +
+    ItemPrice.ChocolateFudge;
 
-var order = document.querySelector("Payment");
+  $("#TotVal").text(Total);
+}
 
-order.addEventListener("submit", function (evt) {
-  var name = document.querySelector("Name").value;
-  var NameResult = name;
-
-  var Address = document.querySelector("Addr").value;
-  var AddResult = Address;
-
-  var credit = document.querySelector("Cred").value;
-  var CredResult = credit;
-
-  var PhoneNumber = document.querySelector("PhoneNum").value;
-  var PhoneNumResult = PhoneNumber;
-});
-
-var Reciept = document.querySelector("#Rec");
-
-Reciept.addEventListener("click", function (evt) {
-  var NewRec = document.createElement("p");
-  NewRec.className = "Payment";
-  NewRec.innerText = `${NameResult} your order has been submitted and will be delivered to ${AddResult}. 
-  Order: ${result}.`;
-  document.querySelector("#Sub").appendChild(NewRec);
+$(function () {
+  $(".qty").on("change keyup", calculateTotal);
 });
