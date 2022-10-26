@@ -25,7 +25,7 @@
 
 var custReviews = [ "Greatest Food In The Bay!- John Cena",
 "The food is 10/10! Would eat again! - IGN ", 
-"Such an amazing place - Brandon Whalen ","The Fries Are The Best! - Nathan Grren! ","The Burgers Are So Good!- Cameron D'amico","The MilkShakes Are To Die For "
+"Such an amazing place - Brandon Whalen ","The Fries Are The Best! - Nathan Grren! ","The Burgers Are So Good!- Cameron D'amico","The MilkShakes Are To Die For - Jordan Kelloway", "The Sushi Is Gucci - Maurice Babin "
 
   ];
 
