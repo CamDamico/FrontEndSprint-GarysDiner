@@ -4,11 +4,7 @@
 
 
 
-var custReviews = [ "Greatest Food In The Bay!- John Cena",
-"The food is 10/10! Would eat again! - IGN ", 
-"Such an amazing place - Brandon Whalen ","The Fries Are The Best! - Nathan Grren! ","The Burgers Are So Good!- Cameron D'amico","The MilkShakes Are To Die For "
 
-  ];
 
 
 
@@ -26,9 +22,18 @@ var custReviews = [ "Greatest Food In The Bay!- John Cena",
 //     evt.preventDefault();
 // });
 
+
+var custReviews = [ "Greatest Food In The Bay!- John Cena",
+"The food is 10/10! Would eat again! - IGN ", 
+"Such an amazing place - Brandon Whalen ","The Fries Are The Best! - Nathan Grren! ","The Burgers Are So Good!- Cameron D'amico","The MilkShakes Are To Die For "
+
+  ];
+
 var myReviews = document.querySelector("#reviews");
+
 myReviews.addEventListener("click", function (evt) {
   myReviews.innerText = nextCatImageUrl();
+  console.log("Hello!")
 
   evt.preventDefault();
 });
@@ -36,10 +41,11 @@ myReviews.addEventListener("click", function (evt) {
 var currentCatIndex = 0;
 
 function nextCatImageUrl() {
-//   currentCatIndex++;
-  if (currentCatIndex === custReviews.length -1) {
-    currentCatIndex = -1;
-    currentCatIndex++;
+  
+  if (currentCatIndex > custReviews.length -1 ) {
+    currentCatIndex = 0;
+    
+    
   }
   return custReviews[currentCatIndex++];
 }
