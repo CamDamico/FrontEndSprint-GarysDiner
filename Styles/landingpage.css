@@ -58,6 +58,7 @@ text-decoration: none;
     justify-content:right;
     padding-top: 30px;
     padding-right: 20px;
+    font-size: 1.5rem;
     
     
 }
@@ -194,7 +195,7 @@ text-decoration: none;
 }
 
 #footer{
-    background-color: rgba(0, 0, 0, 0.63);
+    background-color: rgba(0, 0, 0, 0.43);
     backdrop-filter: blur(10px);
     color: #ffffff;
     width: 100%;
@@ -241,4 +242,8 @@ text-decoration: none;
 
    
     
+}
+
+footer {
+    background-color: yellow;
 }
