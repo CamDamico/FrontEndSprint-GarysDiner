@@ -84,62 +84,6 @@ header {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.57);
 }
 
-#BatWingSpace {
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 3vh;
-}
-
-#ChickSalSpace {
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 3vh;
-}
-
-#BigGarySpace {
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 3vh;
-}
-
-#BatWingSpace {
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 3vh;
-}
-
-#FriesSpace {
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 3vh;
-}
-
-#RaspTartSpace {
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 3vh;
-}
-
-#ChocFudgeSpace {
-  color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 3vh;
-}
-
 #PaymentTitle {
   display: flex;
   flex-direction: row;
@@ -194,19 +138,23 @@ input {
 
 .col-6 {
   font-size: 2rem;
+  padding-bottom: 2vh;
 }
 
 .col-3 {
   font-size: 2rem;
+  padding-bottom: 2vh;
 }
 
 .col-2 {
   font-size: 2rem;
+  padding-bottom: 2vh;
 }
 
 #Order2 {
   padding-top: 32px;
-  padding-bottom: 2vh;
+  padding-bottom: 3vh;
+  font-size: 2rem;
 }
 
 #footer {
@@ -220,4 +168,12 @@ input {
   padding-bottom: 25px;
   text-align: center;
   font-size: 1.5rem;
+}
+
+#Rec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 2rem;
 }

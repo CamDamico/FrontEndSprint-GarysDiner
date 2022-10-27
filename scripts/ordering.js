@@ -43,3 +43,15 @@ function calculateTotal() {
 $(function () {
   $(".qty").on("change keyup", calculateTotal);
 });
+
+var Rec = document.querySelector("#Sub");
+
+Rec.addEventListener("click", function (evt) {
+  var NewPara = document.createElement("p");
+  NewPara.innerText =
+    "Your order has been submitted and will arrive shortly. Thank you for choosing Big Gary's Diner!";
+  NewPara.className = "#Rec";
+  document.querySelector("#SubmitButton").appendChild(NewPara);
+
+  evt.preventDefault();
+});
