@@ -1,6 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -11,21 +11,18 @@
   color: white;
 }
 
-  
-
 body {
   background-image: url(https://images.unsplash.com/photo-1532980400857-e8d9d275d858?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 2em;
-  
 }
 header {
   background-color: rgba(7, 7, 7, 0.689);
   backdrop-filter: blur(10px);
   height: 90px;
-  position:sticky;
+  position: sticky;
   /* font-size: 1.5rem; */
   width: 100vw;
 }
@@ -61,18 +58,17 @@ header {
   text-decoration: none;
   color: white;
 }
-#Buttons #facebookIcon{
+#Buttons #facebookIcon {
   font-size: 20px;
   color: steelblue;
-  padding-left: 15px; 
+  padding-left: 15px;
 }
 
-#Buttons #instagramIcon{
+#Buttons #instagramIcon {
   font-size: 20px;
   padding-left: 20px;
   padding-right: 15px;
   color: purple;
-
 }
 #Title #H1 {
   display: flex;
@@ -87,114 +83,141 @@ header {
   color: #ffffff;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.57);
 }
-#Item {
+
+#BatWingSpace {
   color: #ffffff;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.57);
-  display: inline-block;
+  display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding-left: 250px;
-  padding-bottom: 4vh;
-  font-size: 1em;
-}
-#Item label {
-  display: block;
-}
-#Payment {
-  color: #ffffff;
-  display: inline-block;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-left: 405px;
-  padding-bottom: 4vh;
-  font-size: 1em;
-}
-#Payment #Pay1 {
-  display: block;
-  padding-left: 257px;
-  font-size: 2rem;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 350;
-  line-height: 100px;
-  color: #ffffff;
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.57);
-}
-#Payment label {
-  display: block;
-}
-#Sub {
-  padding-left: 685px;
+  justify-content: space-around;
   padding-bottom: 3vh;
 }
 
-.row-heading
-{
-  font-size:1.3rem;
-  font-weight:bold;
+#ChickSalSpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3vh;
 }
-.total
-{
-  font-size:2rem;
-  font-weight:bold;
+
+#BigGarySpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3vh;
 }
-.total-val
-{
-  font-size:2rem;
+
+#BatWingSpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3vh;
+}
+
+#FriesSpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3vh;
+}
+
+#RaspTartSpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3vh;
+}
+
+#ChocFudgeSpace {
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 3vh;
+}
+
+#PaymentTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 3vh;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.57);
+  font-size: 2rem;
+}
+
+#Payment {
+  color: #ffffff;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.57);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  padding-bottom: 4vh;
+  font-size: 2rem;
+}
+
+.row-heading {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.total {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.total-val {
+  font-size: 2rem;
   border: 1px;
 }
 
-*{
-   text-align: center;
-   /* font-size: 1.3rem; */
-   /* padding: .3vh; */
-   /* padding-top: 20px; */
-   color: white;
+* {
+  text-align: center;
+  /* font-size: 1.3rem; */
+  /* padding: .3vh; */
+  /* padding-top: 20px; */
+  color: white;
 }
 
-
-    
-
-input{
-    color: black;
-    width: 280px;
-    height: 32px;
-    
+input {
+  color: black;
+  width: 280px;
+  height: 32px;
 }
 
-.container{
+.container {
   background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(5px)
+  backdrop-filter: blur(5px);
 }
 
 .col-6 {
-  font-size: 1.5em;
+  font-size: 2rem;
 }
 
-.col-3{
-  font-size: 1.5em;;
+.col-3 {
+  font-size: 2rem;
 }
 
-.col-2{
-  font-size: 1.5em;
+.col-2 {
+  font-size: 2rem;
 }
 
-#Order2{
+#Order2 {
   padding-top: 32px;
+  padding-bottom: 2vh;
 }
 
-#footer{
+#footer {
   background-color: rgba(0, 0, 0, 0.43);
   backdrop-filter: blur(5px);
   color: #ffffff;
   width: 100%;
   size: 16px;
- 
+
   padding-top: 25px;
   padding-bottom: 25px;
   text-align: center;
-font-size: 1.5rem;}
-
-
- 
-
+  font-size: 1.5rem;
+}
