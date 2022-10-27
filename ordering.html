@@ -1,3 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Big Garys Diner</title>
+    <link rel="stylesheet" href="./Styles/orderingpage.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <header>
+    <a href="./index.html" id="Logo">BG</a>
+    <!-- <span id="Logo">BG</span>  -->
+    <span id="Buttons">
+      <a href="./Menu.html" id="menu">View Menu</a>
+      <a href="./ordering.html" id="Order">Order Online </a>
+      <a href="https://www.facebook.com/Mary-Browns-311572199597246">
+        <i class="fa-brands fa-facebook" id="facebookIcon"></i
+      ></a>
+      <a href="https://www.instagram.com/marybrownsofficial/?hl=en"
+        ><i class="fa-brands fa-instagram" id="instagramIcon"></i
+      ></a>
+    </span>
+  </header>
+
+  <body>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="row-heading" id="Order2">Order Online</div>
+      </div>
+      <div id="Food">
+        <div class="row" id="BatWingSpace">
+          <div class="col-6">1. Battered Wings</div>
+          <div class="col-3">
+            <input type="number" value="0" class="qty" id="qty_BatteredWings" />
+          </div>
+          <div class="col-2">
+            <input type="number" readonly value="0" id="price_BatteredWings" />
+          </div>
+        </div>
+
+        <div class="row my-3" id="ChickSalSpace">
+          <div class="col-6">2. Chicken Salad</div>
+          <div class="col-3">
+            <input type="number" value="0" class="qty" id="qty_salad" />
+          </div>
+          <div class="col-2">
+            <input type="number" readonly value="0" id="price_salad" />
+          </div>
+        </div>
+
+        <div class="row my-3" id="BigGarySpace">
+          <div class="col-6">3. Big Gary Sandwich</div>
+          <div class="col-3">
+            <input type="number" class="qty" value="0" id="qty_BigGary" />
+          </div>
+          <div class="col-2">
+            <input type="number" readonly value="0" id="price_BigGary" />
+          </div>
+        </div>
+
+        <div class="row my-3" id="FriesSpace">
+          <div class="col-6">4. Fries</div>
+          <div class="col-3">
+            <input type="number" class="qty" value="0" id="qty_Fries" />
+          </div>
+          <div class="col-2">
+            <input type="number" readonly value="0" id="price_Fries" />
+          </div>
+        </div>
+
+        <div class="row my-3" id="RaspTartSpace">
+          <div class="col-6">5. Raspberry Tart</div>
+          <div class="col-3">
+            <input type="number" class="qty" value="0" id="qty_tart" />
+          </div>
+          <div class="col-2">
+            <input type="number" readonly value="0" id="price_tart" />
+          </div>
+        </div>
+
+        <div class="row my-3" id="ChocFudgeSpace">
+          <div class="col-6">6. Chocolate Fudge Brownie</div>
+          <div class="col-3">
+            <input type="number" class="qty" value="0" id="qty_Brownie" />
+          </div>
+          <div class="col-2">
+            <input type="number" readonly value="0" id="price_Brownie" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row my-4" id="TotSpace">
+        <div class="col-9 text-right total">Total Price:</div>
+
+        <div class="col-2 total-val">
+          <span id="total_value">0</span>
+        </div>
+      </div>
+      <div id="PaymentTitle">Payment</div>
+      <br />
+      <div id="Payment">
+        <label>Name:</label>
+        <input type="text" />
+      </div>
+      <div id="Payment">
+        <label>Address:</label>
+        <input type="text" />
+      </div>
+      <div id="Payment">
+        <label>Credit Card #:</label>
+        <input type="text" />
+      </div>
+      <div id="Payment">
+        <label>Phone Number:</label>
+        <input type="text" />
+      </div>
+      <div id="SubmitButton">
+        <button type="submit" id="Sub">Submit Order</button>
+        <br>
+        <br>
+      </div>
+    <script src="./scripts/ordering.js"></script>
+  </body>
+  <div id="footer">
+    <div>Website was developed by Cameron, Nathan, and Jordan &copy;</div>
+  </div>
+=======
 <!-- Made by Jordan Kelloway, Nathan Greene and Cameron D'Amico -->
 <!-- Completed Oct/27/2022 -->
 <!-- Ordering Page -->
@@ -84,4 +213,5 @@
     </div>
     <script src="./scripts/ordering.js"></script>
   </body>
+
 </html>

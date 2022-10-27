@@ -1,27 +1,57 @@
-var quantity = document.querySelector("Item");
-quantity.addEventListener("submit", function (evt) {
-  var quantity1 = document.querySelector("Item1").value;
-  var result = `Item 1 x ${quantity1}`;
-  var quantity2 = document.querySelector("Item2").value;
-  var result = `Item 2 x ${quantity2}`;
-  var quantity3 = document.querySelector("Item3").value;
-  var result = `Item 3 x ${quantity3}`;
-  var quantity4 = document.querySelector("Item4").value;
-  var result = `Item 4 x ${quantity4}`;
-  var quantity5 = document.querySelector("Item5").value;
-  var result = `Item 5 x ${quantity5}`;
-  var quantity6 = document.querySelector("Item6").value;
-  var result = `Item 6 x ${quantity6}`;
-  evt.preventDefault;
+function calculateTotal() {
+  let unit_price = {
+    BatteredWings: 12.99,
+    ChickenSalad: 13.99,
+    BigGary: 10.99,
+    Fries: 4.99,
+    RaspberryTart: 3.99,
+    ChocolateFudgeBrownie: 2.99,
+  };
+  let item_price = {};
+
+  item_price.BatteredWings =
+    $("#qty_BatteredWings").val() * unit_price.BatteredWings;
+  $("#price_BatteredWings").val(item_price.BatteredWings);
+
+  item_price.ChickenSalad = $("#qty_salad").val() * unit_price.ChickenSalad;
+  $("#price_salad").val(item_price.ChickenSalad);
+
+  item_price.BigGary = $("#qty_BigGary").val() * unit_price.BigGary;
+  $("#price_BigGary").val(item_price.BigGary);
+
+  item_price.Fries = $("#qty_Fries").val() * unit_price.Fries;
+  $("#price_Fries").val(item_price.Fries);
+
+  item_price.RaspberryTart = $("#qty_tart").val() * unit_price.RaspberryTart;
+  $("#price_tart").val(item_price.RaspberryTart);
+
+  item_price.ChocolateFudgeBrownie =
+    $("#qty_Brownie").val() * unit_price.ChocolateFudgeBrownie;
+  $("#price_Brownie").val(item_price.ChocolateFudgeBrownie);
+
+  let total =
+    item_price.BatteredWings +
+    item_price.ChickenSalad +
+    item_price.BigGary +
+    item_price.Fries +
+    item_price.RaspberryTart +
+    item_price.ChocolateFudgeBrownie;
+
+  $("#total_value").text(total);
+}
+
+$(function () {
+  $(".qty").on("change keyup", calculateTotal);
 });
-var order = document.querySelector("Payment");
-order.addEventListener("submit", function (evt) {
-  var name = document.querySelector("Name").value;
-  var NameResult = name;
-  var Address = document.querySelector("Addr").value;
-  var AddResult = Address;
-  var credit = document.querySelector("Cred").value;
-  var CredResult = credit;
-  var PhoneNumber = document.querySelector("PhoneNum").value;
-  var PhoneNumResult = PhoneNumber;
+
+var Rec = document.querySelector("#Sub");
+
+Rec.addEventListener("click", function (evt) {
+  var NewPara = document.createElement("p");
+  NewPara.innerText =
+    "Your order has been submitted and will arrive shortly. Thank you for choosing Big Gary's Diner!";
+  NewPara.className = "#Rec";
+  document.querySelector("#SubmitButton").appendChild(NewPara);
+
+  evt.preventDefault();
 });
